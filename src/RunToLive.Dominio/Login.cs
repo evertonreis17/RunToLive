@@ -16,7 +16,11 @@ namespace RunToLive.Dominio
 
         #region Contrutores
 
-        public Login(string email, TipoUsuario tipoUsuario) : this(null, email, tipoUsuario) { }
+        public Login(string email, TipoUsuario tipoUsuario) 
+            : this(null, email, tipoUsuario) 
+        {
+        
+        }
 
         public Login(object id, string email, TipoUsuario tipoUsuario)
             : base(id)
