@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RunToLive.Dominio.Modelo.Usuarios
+namespace RunToLive.Dominio.Modelo.Aluno
 {
-    public class Aluno : Pessoa
+    public class Aluno : Pessoa, IRaizAgregado
     {
         private string profissao;
         private string exameMedico;
@@ -15,13 +15,13 @@ namespace RunToLive.Dominio.Modelo.Usuarios
 
         #region Construtores
 
-        public Aluno(string nome, Login login, Genero genero, string dataNascimento, string rg, string cpf)
-            : this(null, nome, login, genero, dataNascimento, rg, cpf)
+        public Aluno(string nome, Login login, char genero, string dataNascimento, string rg, string cpf)
+            : this(null, nome, login, genero, rg, cpf)
         {
         }
 
-        public Aluno(string id, string nome, Login login, Genero genero, string dataNascimento, string rg, string cpf)
-            : base(null, nome, login, genero, dataNascimento, rg, cpf)
+        public Aluno(object id, string nome, Login login, char genero, string rg, string cpf)
+            : base(id, nome, login, genero, rg, cpf)
         {
         }
 

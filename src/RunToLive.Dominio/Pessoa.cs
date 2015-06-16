@@ -10,8 +10,8 @@ namespace RunToLive.Dominio
     public class Pessoa : EntidadeBase
     {
         private string nome;
-        private Genero genero;
-        private string dataNascimento;
+        private char genero;
+        private DateTime dataNascimento;
         private string rg;
         private string cpf;
         private Login login;
@@ -25,13 +25,12 @@ namespace RunToLive.Dominio
 
         #region Contrutores
 
-        public Pessoa(object id, string nome, Login login, Genero genero, string dataNascimento, string rg, string cpf)
+        public Pessoa(object id, string nome, Login login, char genero, string rg, string cpf)
             : base(id)
         {
             this.nome = nome;
             this.login = login;
             this.genero = genero;
-            this.dataNascimento = dataNascimento;
             this.rg = rg;
             this.cpf = cpf;
         }
@@ -47,14 +46,15 @@ namespace RunToLive.Dominio
             set { nome = value; }
         }
 
-        public Genero Genero
+        public char Genero
         {
             get { return genero; }
         }
 
-        public string DataNascimento
+        public DateTime DataNascimento
         {
             get { return dataNascimento; }
+            set { dataNascimento = value; }
         }
 
         public string Rg
@@ -96,8 +96,8 @@ namespace RunToLive.Dominio
 
         public string Nacionalidade
         {
-            get { return Nacionalidade; }
-            set { Nacionalidade = value; }
+            get { return nacionalidade; }
+            set { nacionalidade = value; }
         }
 
         public string Foto

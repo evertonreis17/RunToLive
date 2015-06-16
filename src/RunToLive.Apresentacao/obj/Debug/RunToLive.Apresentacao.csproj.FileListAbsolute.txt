@@ -3,3 +3,4 @@ C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Apresentacao\bin\R
 C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Apresentacao\bin\RunToLive.pdb
 C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Apresentacao\obj\Debug\RunToLive.dll
 C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Apresentacao\obj\Debug\RunToLive.pdb
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Apresentacao\obj\Debug\RunToLive.Apresentacao.csprojResolveAssemblyReference.cache

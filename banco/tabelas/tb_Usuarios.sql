@@ -1,7 +1,7 @@
-USE DB_RUNTOLIVE
+USE RunToLive
 GO
 
-IF EXISTS (SELECT * FROM SYSOBJECTS WHERE id = OBJECT_ID(N'[tb_Usuarios]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
+IF EXISTS (SELECT * FROM SYSOBJECTS WHERE id = OBJECT_ID(N'[Usuarios]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
 BEGIN
 	DROP TABLE [Usuarios]
 END
@@ -11,7 +11,7 @@ GO
 --------------------------------------------------------------------------
 CREATE TABLE Usuarios (
 
-	UsuarioID INT IDENTITY(1,1) NOT NULL,
+	UsuarioID UNIQUEIDENTIFIER NOT NULL,
 	Nome VARCHAR(80) NOT NULL,
     Sexo CHAR(1) NOT NULL,
     Nascimento DATE NOT NULL, 
@@ -19,8 +19,8 @@ CREATE TABLE Usuarios (
 	RG VARCHAR(9) NOT NULL,
 	CPF VARCHAR(11) NOT NULL,
 	[Login] VARCHAR(50) NOT NULL,	
-	Telefone VARCHAR(11) NOT NULL,
-	Celular VARCHAR(11) NOT NULL,
+	Telefone VARCHAR(11) DEFAULT NULL,
+	Celular VARCHAR(11) DEFAULT NULL,
 	Cep VARCHAR(9) NOT NULL,
 	Naturalidade VARCHAR(50) NOT NULL,
 	Nacionalidade VARCHAR(50) NOT NULL,
@@ -33,10 +33,10 @@ GO
 --------------------------------------------------------------------------
 -- Cria a PK da tabela caso ela não exista
 --------------------------------------------------------------------------
-IF NOT EXISTS (SELECT * FROM SYSOBJECTS WHERE name = 'pk_cd_usuarioId' AND xtype = 'PK')
+IF NOT EXISTS (SELECT * FROM SYSOBJECTS WHERE name = 'pk_usuarioId' AND xtype = 'PK')
 BEGIN
 	ALTER TABLE [Usuarios]
-	ADD CONSTRAINT pk_cd_usuarioId PRIMARY KEY (cd_UsuarioID)
+	ADD CONSTRAINT pk_UsuarioId PRIMARY KEY (UsuarioID)
 END
 GO
 --------------------------------------------------------------------------

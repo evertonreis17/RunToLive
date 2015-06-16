@@ -42,6 +42,8 @@
     <Compile Include="Genero.cs" />
     <Compile Include="Login.cs" />
     <Compile Include="Modelo\Aluno\Aluno.cs" />
+    <Compile Include="Modelo\Aluno\IRepositorioAluno.cs" />
+    <Compile Include="Modelo\FichaAnamnese\FichaAnamnese.cs" />
     <Compile Include="Modelo\Professor\Professor.cs" />
     <Compile Include="Pessoa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

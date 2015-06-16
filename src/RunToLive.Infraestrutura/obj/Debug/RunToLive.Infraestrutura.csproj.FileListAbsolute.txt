@@ -1,0 +1,10 @@
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infraestrutura\bin\Debug\RunToLive.Infraestrutura.dll
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infraestrutura\bin\Debug\RunToLive.Infraestrutura.pdb
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infraestrutura\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infraestrutura\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infraestrutura\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infraestrutura\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infraestrutura\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infraestrutura\obj\Debug\RunToLive.Infraestrutura.dll
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infraestrutura\obj\Debug\RunToLive.Infraestrutura.pdb
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infraestrutura\obj\Debug\RunToLive.Infraestrutura.csprojResolveAssemblyReference.cache

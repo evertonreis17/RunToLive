@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RunToLive.Infraestrutura.BaseDominio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,20 +7,20 @@ using System.Threading.Tasks;
 
 namespace RunToLive.Dominio.Modelo.Professor
 {
-    public class Professor : Pessoa
+    public class Professor : Pessoa, IRaizAgregado
     {
         private string campoAtuacao;
 
 
         #region Construtores
 
-        public Professor(string nome, Login login, Genero genero, string dataNascimento, string rg, string cpf)
-            : this(null, nome, login, genero, dataNascimento, rg, cpf)
+        public Professor(string nome, Login login, char genero, string rg, string cpf)
+            : this(null, nome, login, genero, rg, cpf)
         {
         }
 
-        public Professor(string id, string nome, Login login, Genero genero, string dataNascimento, string rg, string cpf)
-            : base(null, nome, login, genero, dataNascimento, rg, cpf)
+        public Professor(string id, string nome, Login login, char genero, string rg, string cpf)
+            : base(id, nome, login, genero, rg, cpf)
         {
         }
 
