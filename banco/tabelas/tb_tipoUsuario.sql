@@ -1,17 +1,17 @@
-USE DB_RUNTOLIVE
+USE RunToLive
 GO
 
-IF EXISTS (SELECT * FROM SYSOBJECTS WHERE id = OBJECT_ID(N'[tb_TipoUsuario]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
+IF EXISTS (SELECT * FROM SYSOBJECTS WHERE id = OBJECT_ID(N'[TipoUsuario]') AND OBJECTPROPERTY(id, N'IsUserTable') = 1)
 BEGIN
-	DROP TABLE [tb_TipoUsuario]
+	DROP TABLE [TipoUsuario]
 END
 GO
 --------------------------------------------------------------------------
 -- Cria a tabela
 --------------------------------------------------------------------------
-CREATE TABLE tb_TipoUsuario (
-	cd_TipoUsuarioID INT NOT NULL,
-	ds_Titulo VARCHAR(20) NOT NULL
+CREATE TABLE TipoUsuario (
+	TipoUsuarioID TINYINT NOT NULL,
+	Titulo VARCHAR(15) NOT NULL
 )
 GO
 --------------------------------------------------------------------------
@@ -19,7 +19,10 @@ GO
 --------------------------------------------------------------------------
 IF NOT EXISTS (SELECT * FROM SYSOBJECTS WHERE name = 'pk_tipoUsuario' AND xtype = 'PK')
 BEGIN
-	ALTER TABLE [tb_TipoUsuario]
-	ADD CONSTRAINT pk_tipoUsuario PRIMARY KEY (cd_TipoUsuarioID)
+	ALTER TABLE [TipoUsuario]
+	ADD CONSTRAINT pk_tipoUsuario PRIMARY KEY (TipoUsuarioID)
 END
 GO
+
+INSERT INTO TipoUsuario (TipoUsuarioID, Titulo)
+VALUES (1, 'Administrador'), (2, 'Professor'), (3, 'Aluno')

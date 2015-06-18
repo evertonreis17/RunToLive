@@ -18,7 +18,7 @@ CREATE TABLE Usuarios (
     CampoAtuacao VARCHAR(50) DEFAULT NULL,    
 	RG VARCHAR(9) NOT NULL,
 	CPF VARCHAR(11) NOT NULL,
-	[Login] VARCHAR(50) NOT NULL,	
+	LoginID UNIQUEIDENTIFIER NOT NULL,	
 	Telefone VARCHAR(11) DEFAULT NULL,
 	Celular VARCHAR(11) DEFAULT NULL,
 	Cep VARCHAR(9) NOT NULL,
@@ -42,10 +42,10 @@ GO
 --------------------------------------------------------------------------
 -- Adiciona as Foreign Keys da tabela caso elas não existam
 --------------------------------------------------------------------------
-/*IF NOT EXISTS (SELECT * FROM SYSOBJECTS WHERE name = 'fk_usuariosRefEndereco' AND xtype = 'F')
+IF NOT EXISTS (SELECT * FROM SYSOBJECTS WHERE name = 'fk_usuariosRefLogin' AND xtype = 'F')
 BEGIN
 	ALTER TABLE [Usuarios]
-	ADD CONSTRAINT fk_usuariosRefEndereco FOREIGN KEY (cd_Cep)
-	REFERENCES [Endereco] (cd_Cep) 
+	ADD CONSTRAINT fk_usuariosRefLogin FOREIGN KEY (LoginID)
+	REFERENCES [Login] (LoginID) 
 END
-GO*/
+GO

@@ -1,0 +1,20 @@
+F:\RunToLive\src\RunToLive.Infrastructure\bin\Debug\RunToLive.Infrastructure.dll
+F:\RunToLive\src\RunToLive.Infrastructure\bin\Debug\RunToLive.Infrastructure.pdb
+F:\RunToLive\src\RunToLive.Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\RunToLive\src\RunToLive.Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\RunToLive\src\RunToLive.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+F:\RunToLive\src\RunToLive.Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+F:\RunToLive\src\RunToLive.Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+F:\RunToLive\src\RunToLive.Infrastructure\obj\Debug\RunToLive.Infrastructure.csprojResolveAssemblyReference.cache
+F:\RunToLive\src\RunToLive.Infrastructure\obj\Debug\RunToLive.Infrastructure.dll
+F:\RunToLive\src\RunToLive.Infrastructure\obj\Debug\RunToLive.Infrastructure.pdb
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infrastructure\bin\Debug\RunToLive.Infrastructure.dll
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infrastructure\bin\Debug\RunToLive.Infrastructure.pdb
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infrastructure\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infrastructure\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infrastructure\obj\Debug\RunToLive.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infrastructure\obj\Debug\RunToLive.Infrastructure.dll
+C:\Users\Everton\Projetos\Projetos C#\RunToLive\src\RunToLive.Infrastructure\obj\Debug\RunToLive.Infrastructure.pdb
