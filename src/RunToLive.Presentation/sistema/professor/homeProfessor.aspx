@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="pagamentoProf.aspx.cs" Inherits="RunToLive.Presentation.sistema.professor.pagamentoProf" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="homeProfessor.aspx.cs" Inherits="RunToLive.Presentation.sistema.professor.homeProfessor" %>
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -16,18 +16,18 @@
     <link href="../../../css/main.css" rel="stylesheet">
     <link href="../../../css/responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
-    <script src="../../../js/html5shiv.js"></script>
-    <script src="../../../js/respond.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
     <![endif]-->
     <link rel="shortcut icon" href="../../../images/ico/iconPM.png">
-    <%--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <!--% <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">--%>
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png"> %-->
 </head>
 <!--/head-->
 <body class="homepage">
-    <form id="pagamentoProfForm" runat="server">
+    <form id="dadosPessoaisProfForm" runat="server">
         <header id="header">
 
             <nav class="navbar navbar-inverse navbar-default navbar-fixed-top" role="banner">
@@ -46,11 +46,11 @@
 
                     <div class="collapse navbar-collapse navbar-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="homeProfessor.aspx">Home</a></li>
+                            <li class="active"><a href="homeProfessor.aspx">Home</a></li>
                             <li><a href="dadosPessoaisProf.aspx">Alunos</a></li>
                             <li><a href="dadosProfessor.aspx">Professores</a></li>
                             <li><a href="treinosProf.aspx">Treinos</a></li>
-                            <li class="active"><a href="pagamentoProf.aspx">Pagamentos</a></li>
+                            <li><a href="pagamentoProf.aspx">Pagamentos</a></li>
                             <li><a href="eventoProf.aspx">Eventos</a></li>
                             <li><a href="../../../index.aspx">Sair</a></li>
                         </ul>
@@ -66,62 +66,12 @@
         <section id="system-tab">
             <div class="container">
                 <div class="row">
-                    <fieldset>
-                        <!-- Form Name -->
-                        <legend>Pagamentos:</legend>
-
-                        <!-- Text input-->
-                        <div class="form-group">
-                            <div class="col-md-4">
-                                <select id="selectbasic" name="selectbasic" class="form-control">
-                                    <option value="1">Aline</option>
-                                    <option value="2">Thalita</option>
-                                    <option value="3">Rafael</option>
-                                    <option value="4">Verônica</option>
-                                </select>
-                            </div>
-                            <button id="btnVerificarPagamento" name="btnadd" class="btn btn-primary">Verificar Pagamento</button>
-                        </div>
-                    </fieldset>
+                    
                 </div>
-
-                <div id="exTab1" class="container">
-                    <ul class="nav nav-pills">
-                        <li class="active">
-                            <a href="#1a" data-toggle="tab">Mensalidade e Itens de Compra</a>
-                        </li>
-                        <li>
-                            <a href="#2a" data-toggle="tab">Pedidos</a>
-                        </li>
-                        <li>
-                            <a href="#3a" data-toggle="tab">Recibos</a>
-                        </li>
-                    </ul>
-
-                    <div class="tab-content clearfix">
-                        <div class="tab-pane active" id="1a">
-                            <div class="row system">
-                                <div class="col-md-1">
-                                    <label>Código:</label>
-                                    <input id="txtCd" name="txtCd" type="text" class="form-control" />
-                                </div>
-                            </div>
-                            <%-- /1º row --%>
-
-                        </div>
-                        <div class="tab-pane" id="2a">
-
-                        </div>
-
-                        <div class="tab-pane" id="3a">
-
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </section>
-        <%-- /section system-tab --%>
+        <!--% /section system-tab %-->
+
         <footer id="footer" class="midnight-blue">
             <div class="container">
                 <div class="row">
@@ -141,7 +91,6 @@
             </div>
         </footer>
         <!--/#footer-->
-        
         <script src="../../../js/jquery.js"></script>
         <script src="../../../js/bootstrap.min.js"></script>
         <script src="../../../js/jquery.prettyPhoto.js"></script>
@@ -151,4 +100,3 @@
     </form>
 </body>
 </html>
-

@@ -281,9 +281,10 @@
     <Content Include="sistema\aluno\dadosPessoaisAluno.aspx" />
     <Content Include="sistema\aluno\treinoAluno.aspx" />
     <Content Include="sistema\professor\dadosPessoaisProf.aspx" />
-    <Content Include="sistema\professor\dadosProf.aspx" />
+    <Content Include="sistema\professor\dadosProfessor.aspx" />
     <Content Include="sistema\professor\eventoProf.aspx" />
     <Content Include="sistema\professor\homeProf.aspx" />
+    <Content Include="sistema\professor\homeProfessor.aspx" />
     <Content Include="sistema\professor\pagamentoProf.aspx" />
     <Content Include="sistema\professor\treinosProf.aspx" />
     <Content Include="users.aspx" />
@@ -356,12 +357,12 @@
     <Compile Include="sistema\professor\dadosPessoaisProf.aspx.designer.cs">
       <DependentUpon>dadosPessoaisProf.aspx</DependentUpon>
     </Compile>
-    <Compile Include="sistema\professor\dadosProf.aspx.cs">
-      <DependentUpon>dadosProf.aspx</DependentUpon>
+    <Compile Include="sistema\professor\dadosProfessor.aspx.cs">
+      <DependentUpon>dadosProfessor.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="sistema\professor\dadosProf.aspx.designer.cs">
-      <DependentUpon>dadosProf.aspx</DependentUpon>
+    <Compile Include="sistema\professor\dadosProfessor.aspx.designer.cs">
+      <DependentUpon>dadosProfessor.aspx</DependentUpon>
     </Compile>
     <Compile Include="sistema\professor\eventoProf.aspx.cs">
       <DependentUpon>eventoProf.aspx</DependentUpon>
@@ -376,6 +377,13 @@
     </Compile>
     <Compile Include="sistema\professor\homeProf.aspx.designer.cs">
       <DependentUpon>homeProf.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sistema\professor\homeProfessor.aspx.cs">
+      <DependentUpon>homeProfessor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sistema\professor\homeProfessor.aspx.designer.cs">
+      <DependentUpon>homeProfessor.aspx</DependentUpon>
     </Compile>
     <Compile Include="sistema\professor\pagamentoProf.aspx.cs">
       <DependentUpon>pagamentoProf.aspx</DependentUpon>

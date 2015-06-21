@@ -92,14 +92,10 @@
                                     <label>Sexo:</label>
                                 </div>
                                 <div class="col-md-2">
-                                    <label>
-                                        <input type="radio" name="rbFeminino" id="optionsRadios1" value="Feminino" checked />
-                                        Feminino
-                                    </label>
-                                    <label>
-                                        <input type="radio" name="rbMasculino" id="optionsRadios2" value="Masculino" />
-                                        Masculino
-                                    </label>
+                                    <asp:RadioButtonList ID="rblSexo" runat="server">
+                                        <asp:ListItem Text="Feminino" Value="FEMININO" Selected="True" />
+                                        <asp:ListItem Text="Masculino" Value="MASCULINO" />
+                                    </asp:RadioButtonList>
                                 </div>
                                 <div class="col-md-2">
                                     <img src="../../../images/blog/avatar3.png" alt="" />

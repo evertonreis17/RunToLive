@@ -7,11 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RunToLive.Presentation.sistema.professor
-{
+namespace RunToLive.Presentation.sistema.professor {
     
     
-    public partial class dadosProf {
+    public partial class dadosProfessor {
         
         /// <summary>
         /// ProfessoresForm control.

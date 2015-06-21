@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace RunToLive.Presentation.sistema.professor
 {
-    public partial class professores : System.Web.UI.Page
+    public partial class dadosProfessor : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

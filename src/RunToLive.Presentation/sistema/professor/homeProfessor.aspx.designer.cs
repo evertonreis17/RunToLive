@@ -7,27 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RunToLive.Presentation.sistema.aluno {
+namespace RunToLive.Presentation.sistema.professor {
     
     
-    public partial class dadosPessoaisAluno {
+    public partial class homeProfessor {
         
         /// <summary>
-        /// dadosPessoaisAlunoForm control.
+        /// dadosPessoaisProfForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm dadosPessoaisAlunoForm;
-        
-        /// <summary>
-        /// rblSexo control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblSexo;
+        protected global::System.Web.UI.HtmlControls.HtmlForm dadosPessoaisProfForm;
     }
 }

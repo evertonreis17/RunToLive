@@ -47,9 +47,9 @@
 
                     <div class="collapse navbar-collapse navbar-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="homeProf.aspx">Home</a></li>
+                            <li><a href="homeProfessor.aspx">Home</a></li>
                             <li><a href="dadosPessoaisProf.aspx">Alunos</a></li>
-                            <li><a href="dadosProf.aspx">Professores</a></li>
+                            <li><a href="dadosProfessor.aspx">Professores</a></li>
                             <li class="active"><a href="treinosProf.aspx">Treinos</a></li>
                             <li><a href="pagamentoProf.aspx">Pagamentos</a></li>
                             <li><a href="eventoProf.aspx">Eventos</a></li>

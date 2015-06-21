@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="dadosProf.aspx.cs" Inherits="RunToLive.Presentation.sistema.professor.dadosProf" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="dadosProfessor.aspx.cs" Inherits="RunToLive.Presentation.sistema.professor.dadosProfessor" %>
 
 <!DOCTYPE html>
 <html lang="pt-br">
